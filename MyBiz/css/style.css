@@ -65,7 +65,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-	background: rgba(62, 212, 255, 0.5);
+	background: rgba(255, 0, 0, 0.1);
 	border-color: #d70101 !important;
 	outline: none;
 	color: #333;
@@ -1153,7 +1153,6 @@ textarea:focus {
 	color: #fff;
 }
 
-
 /*Map*/
 #google-map{
     position:relative;
@@ -1296,4 +1295,3 @@ textarea:focus {
 #bottom-footer .footer-right ul > li > a:hover {
 	color: #d70101;
 }
-
