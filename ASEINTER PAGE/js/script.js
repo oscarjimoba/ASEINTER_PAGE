@@ -87,3 +87,10 @@ $(document).ready(function() {
     google.maps.event.addDomListener(window, 'load', initialize_google_map);
 
 });
+
+	$("[data-toggle=popover]").popover({
+    html: true, 
+	content: function() {
+          return $('#popover-content').html();
+    }
+});
